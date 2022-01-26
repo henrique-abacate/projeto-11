@@ -11,6 +11,7 @@ function setup(){
  path = createSprite (200,200);
  boy = createSprite (200,300,30,30);
  boy.addAnimation("boy1",boyImg);
+ boy.scale= 0.050;
  leftBoundary = createSprite (0,0,100,800);
  rightBoundary = createSprite (400,0,100,800);
  path.addImage(pathImg);
